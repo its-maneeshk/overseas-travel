@@ -47,17 +47,14 @@ export default function Header() {
             </a>
           </div>
 
-          <Link
-            href="/tours/kailash-mansarovar-yatra"
-            className="inline-flex shrink-0 items-center gap-2 text-xs font-bold text-amber-300 transition-colors hover:text-white"
-          >
-            <Mountain className="size-3.5" />
-            <span className="hidden sm:inline">
-              KAILASH MANSAROVAR YATRA
-            </span>
-            <span className="sm:hidden">Kailash Yatra</span>
-            <ArrowUpRight className="size-3" />
-          </Link>
+          <div className="inline-flex shrink-0 items-center gap-2 text-xs">
+  <span className="font-semibold text-emerald-400">
+    GSTIN:
+  </span>
+  <span className="font-medium text-slate-300">
+    {contact.govReg}
+  </span>
+</div>
         </div>
       </div>
 

@@ -17,7 +17,8 @@ export const siteConfig = {
     phoneDisplay: "+91-57655752 | +977-9812117278",
     phoneLink: "+91-57655752",
     whatsappNumber: "9779812117278",
-    email: "kundan.mishra@gmail.com",
-    location: "Vadodara, Gujarat, India - 391760",
+    email: "overseastourandtravels70@gmail.com",
+    location: "Ground Floor, Bldg No. 00, Shrikhandi Bhitta, Bhithamore, Sitamarhi, Bihar 843331",
+    govReg: "10ICYPM6628G1Z4"
   },
 } as const;
