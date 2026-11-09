@@ -48,13 +48,13 @@ export default function Header() {
           </div>
 
           <div className="inline-flex shrink-0 items-center gap-2 text-xs">
-  <span className="font-semibold text-emerald-400">
-    GSTIN:
-  </span>
-  <span className="font-medium text-slate-300">
-    {contact.govReg}
-  </span>
-</div>
+            <span className="font-semibold text-emerald-400">
+              GSTIN:
+            </span>
+            <span className="font-medium text-slate-300">
+              {contact.govReg}
+            </span>
+          </div>
         </div>
       </div>
 
